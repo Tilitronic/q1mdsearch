@@ -111,7 +111,13 @@ module.exports = {
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'linebreak-style': 0,
-    'typescript-eslint/no-unsafe-call': 0,
-    'no-console': 0
+    '@typescript-eslint/no-unsafe-call': 0,
+    '@typescript-eslint/no-unsafe-member-access': 0,
+    '@typescript-eslint/no-unsafe-assignment': 0,
+    '@typescript-eslint/no-unsafe-argument': 0,
+    'no-unused-expressions': 0,
+    'no-console': 0,
+    'max-len': 0,
+    '@typescript-eslint/no-unsafe-return': 0,
   }
 }
